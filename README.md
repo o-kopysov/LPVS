@@ -2,6 +2,13 @@
 ![Logo for dark mode](doc/lpvs-dark.png#gh-dark-mode-only)
 ![Logo for light mode](doc/lpvs-light.png#gh-light-mode-only)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="doc/lpvs-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="doc/lpvs-light.png">
+  <img alt="Logo" src="doc/lpvs-light.png">
+</picture>
+  
+
 # License Pre-Validation Service
 
 [![Build](https://github.com/samsung/lpvs/workflows/Build/badge.svg)](https://github.com/samsung/lpvs/actions?query=workflow%3ABuild)
