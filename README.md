@@ -8,20 +8,10 @@
   <img alt="Logo" src="doc/lpvs-light.png">
 </picture>
 
-<div align="center">
-  <img src="doc/lpvs-light.png" style="display: block;" class="dark-mode">
-  <img src="doc/lpvs-dark.png" style="display: none;" class="light-mode">
-</div>
-<style>
-  @media (prefers-color-scheme: dark) {
-    .light-mode { display: none; }
-    .dark-mode { display: block; }
-  }
-  @media (prefers-color-scheme: light) {
-    .light-mode { display: block; }
-    .dark-mode { display: none; }
-  }
-</style>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="doc/lpvs-dark.png">
+  <img alt="Logo" src="doc/lpvs-light.png">
+</picture>
 
 # License Pre-Validation Service
 
